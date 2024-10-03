@@ -121,7 +121,6 @@ function createJsonFile(queryResult) {
 function uploadToS3(fileName) {
   return new Promise((resolve) => {
     setTimeout(() => {
-      console.log('Simulated file upload to S3 bucket');
       resolve();
     }, 1000);
   });

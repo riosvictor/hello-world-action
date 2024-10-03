@@ -21,6 +21,6 @@ ncc build index.js --license licenses.txt
 ```yaml
 steps:
   - name: Usar Hello World Action
-    uses: riosvictor/hello-world-action@v1.0.0
+    uses: riosvictor/hello-world-action@v2.0.0
     with:
       who-to-greet: 'John'
