@@ -1,0 +1,17 @@
+name: 'Hello World Action'
+description: 'Uma simples action que imprime Hello, World!'
+author: 'Paulo Rios'
+
+inputs:
+  who-to-greet:
+    description: 'A pessoa para cumprimentar'
+    required: true
+    default: 'World'
+
+runs:
+  using: 'node16'
+  main: 'index.js'
+
+outputs:
+  greeting-message:
+    description: 'A mensagem de saudação'

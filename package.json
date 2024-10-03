@@ -1,0 +1,10 @@
+{
+  "name": "hello-world-action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Paulo Rios",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.11.0"
+  }
+}
