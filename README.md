@@ -2,6 +2,12 @@
 
 Esta ação imprime "Hello, World!" ou cumprimenta uma pessoa especificada.
 
+> A cada alteração no arquivo index.js é necessário executar o comando abaixo:
+
+```sh
+ncc build index.js --license licenses.txt
+```
+
 ### Inputs
 
 - `who-to-greet`: A pessoa para cumprimentar. (Padrão: `"World"`)
